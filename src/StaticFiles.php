@@ -70,7 +70,7 @@ class StaticFiles
     {
         $path = $this->root . $request->getUri()->getPath();
         if (is_dir($path)) {
-            $path .= rtrim($path, '/') . '/index.html';
+            $path = rtrim($path, '/') . '/index.html';
         }
 
         if (! preg_match('#\.(?P<type>[a-z][a-z0-9]{0,3})$#', $path, $matches)) {
