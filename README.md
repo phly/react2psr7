@@ -8,8 +8,15 @@ Serve PSR-7 middleware applications from [React](http://reactphp.org).
 ## Installation
 
 ```console
-$ composer require phly/react2psr7
+$ composer require "react/http:^0.5@dev" phly/react2psr7
 ```
+
+> ### react/http
+>
+> react2psr7 currently requires features from the upcoming 0.5 release of
+> react/http. Since that version is not yet released, you need to specify
+> it manually when installing to force Composer to allow a development
+> release.
 
 ## Usage
 
