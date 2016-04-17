@@ -3,6 +3,13 @@
     "type": "library",
     "homepage": "https://github.com/phly/react2psr7",
     "license": "BSD-2-CLAUSE",
+    "keywords": [
+        "http",
+        "middleware",
+        "psr",
+        "psr-7",
+        "react"
+    ],
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
