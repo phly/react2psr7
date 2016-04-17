@@ -1,6 +1,7 @@
 # react2psr7
 
 [![Build Status](https://secure.travis-ci.org/phly/react2psr7.svg?branch=master)](https://secure.travis-ci.org/phly/react2psr7)
+[![Coverage Status](https://coveralls.io/repos/github/phly/react2psr7/badge.svg?branch=master)](https://coveralls.io/github/phly/react2psr7?branch=master)
 
 Serve PSR-7 middleware applications from [React](http://reactphp.org).
 
