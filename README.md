@@ -76,7 +76,7 @@ $container = require 'config/container.php';
 $pipeline  = new MiddlewarePipe();
 
 $pipeline->pipe(new StaticFiles());
-$pipeline->pipe($container->get(Application::class);
+$pipeline->pipe($container->get(Application::class));
 
 $http->on('request', new ReactRequestHandler($pipeline));
 
